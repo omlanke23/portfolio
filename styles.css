@@ -324,6 +324,23 @@ body{
   z-index:2;
 }
 
+
+
+.photo-img{
+  width:240px;
+  height:280px;
+
+  object-fit:cover;
+
+  border:5px solid rgba(255,255,255,.7);
+
+  position:absolute;
+  top:90px;      /* थोडा खाली */
+  right:60px;
+
+  box-shadow:0 10px 25px rgba(91,141,255,.18);
+}
+
 /* PAGE */
 
 .page{
@@ -345,6 +362,7 @@ body{
   box-shadow:var(--shadow);
 
   animation:fade .4s ease;
+  position:relative;
 }
 
 .page.is-active{
