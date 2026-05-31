@@ -327,18 +327,16 @@ body{
 
 
 .photo-img{
-  width:240px;
-  height:280px;
+    width: min(240px, 25vw);
+    height: auto;
+    aspect-ratio: 6/7;
+    object-fit: cover;
 
-  object-fit:cover;
+    float: right;
+    margin: 30px 40px 20px 20px;
 
-  border:5px solid rgba(255,255,255,.7);
-
-  position:absolute;
-  top:90px;      /* थोडा खाली */
-  right:60px;
-
-  box-shadow:0 10px 25px rgba(91,141,255,.18);
+    border: 5px solid rgba(255,255,255,.7);
+    box-shadow: 0 10px 25px rgba(91,141,255,.18);
 }
 
 /* PAGE */
